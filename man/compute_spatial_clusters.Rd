@@ -65,5 +65,5 @@ Singhal, V., Chou, N., Lee, J. et al.
 BANKSY unifies cell typing and tissue domain segmentation
 for scalable spatial omics data analysis.
 Nature Genetics 56, 431-441 (2024).
-\url{https://doi.org/10.1038/s41588-024-01664-3}
+\doi{10.1038/s41588-024-01664-3}
 }
