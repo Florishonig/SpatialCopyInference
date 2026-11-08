@@ -1,0 +1,14 @@
+^SpatialCopyInference\.Rproj$
+^\.Rproj\.user$
+^docs$
+^docs/.*$
+^README\.Rmd$
+^LICENSE\.md$
+^vignettes/SpatialCopyInference_workflow\.Rmd$
+^vignettes/Quick_start\.Rmd$
+^vignettes/Breast\.Rmd$
+^vignettes/Cervical\.Rmd$
+^_pkgdown\.yml$
+^cran-comments\.md$
+^\.positai$
+^\.claude$

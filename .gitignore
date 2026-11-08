@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto
+.positai
+inst/doc
+SpatialCopyInference.Rproj
+
+# Workflow source files
+vignettes/Breast.Rmd
+vignettes/Cervical.Rmd
+vignettes/Quick_start.Rmd
+vignettes/SpatialCopyInference_workflow.Rmd

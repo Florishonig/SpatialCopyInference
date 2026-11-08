@@ -1,0 +1,55 @@
+Package: SpatialCopyInference
+Title: Spatial Copy Number Inference from Xenium Data
+Version: 0.1.0
+Authors@R: 
+    person("Floris", "Honig", , "florishonig@gmail.com", role = c("aut", "cre"))
+Description: SpatialCopyInference infers chromosome arm-level somatic copy number aberrations
+    (SCNAs) directly from Xenium spatial transcriptomics data. The package
+    identifies and spatially maps SCNA-defined cell populations through
+    spatial clustering and provides downstream tools for visualisation,
+    differential expression analysis, pathway enrichment and identification
+    of genes and genomic regions associated with inferred SCNAs.
+    SpatialCopyInference enables the study of tumour evolution and early
+    cancer development in situ.
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    arrow,
+    knitr,
+    rmarkdown,
+Imports: 
+    AnnotationDbi,
+    BiocGenerics,
+    BiocManager,
+    BiocParallel,
+    biomaRt,
+    circlize,
+    clusterProfiler,
+    ComplexHeatmap,
+    data.table,
+    dbscan,
+    dplyr,
+    enrichplot,
+    GenomicRanges,
+    ggplot2,
+    ggthemes,
+    IRanges,
+    karyoploteR,
+    magrittr,
+    Matrix,
+    org.Hs.eg.db,
+    purrr,
+    remotes,
+    S4Vectors,
+    scales,
+    Seurat,
+    SeuratObject,
+    stringr,
+    tibble,
+    tidyr
+Depends: 
+    R (>= 3.5)
+LazyData: true
+License: MIT + file LICENSE
+URL: https://github.com/florishonig/SpatialCopyInference
