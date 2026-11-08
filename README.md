@@ -12,7 +12,7 @@ early cancer development in situ.
 
 Documentation, including the entire workflow using a human ovarian
 cancer dataset, is available
-[here](https://TBD.github.io/SpatialCopyInference/).
+[here](https://florishonig.github.io/SpatialCopyInference/).
 
 You can read more about SpatialCopyInference in our
 [preprint](https://www.biorxiv.org/content/10.64898/2026.10.23.761433v1.article-info).
@@ -22,7 +22,7 @@ You can read more about SpatialCopyInference in our
 You can install SpatialCopyInference with the following command:
 
 ``` r
-remotes::install_github("TBD/SpatialCopyInference")
+remotes::install_github("florishonig/SpatialCopyInference")
 ```
 
 ## Example workflow
