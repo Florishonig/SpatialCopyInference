@@ -3,7 +3,7 @@ Title: Spatial Copy Number Inference from Xenium Data
 Version: 0.1.0
 Authors@R: 
     person("Floris", "Honig", , "florishonig@gmail.com", role = c("aut", "cre"))
-Description: SpatialCopyInference infers chromosome arm-level somatic copy number aberrations
+Description: Infers chromosome arm-level somatic copy number aberrations
     (SCNAs) directly from Xenium spatial transcriptomics data. The package
     identifies and spatially maps SCNA-defined cell populations through
     spatial clustering and provides downstream tools for visualisation,
@@ -52,4 +52,5 @@ Depends:
     R (>= 3.5)
 LazyData: true
 License: MIT + file LICENSE
-URL: https://github.com/florishonig/SpatialCopyInference
+URL: https://github.com/florishonig/SpatialCopyInference,
+     https://florishonig.github.io/SpatialCopyInference/
