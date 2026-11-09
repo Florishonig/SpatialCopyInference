@@ -18,6 +18,7 @@ Suggests:
     arrow,
     knitr,
     rmarkdown,
+    org.Hs.eg.db,
 Imports: 
     AnnotationDbi,
     BiocGenerics,
@@ -38,7 +39,6 @@ Imports:
     karyoploteR,
     magrittr,
     Matrix,
-    org.Hs.eg.db,
     purrr,
     remotes,
     S4Vectors,

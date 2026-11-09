@@ -47,6 +47,14 @@ compare_spatial_clusters <- function(
     show_category = 10
 ) {
 
+  if (!requireNamespace("org.Hs.eg.db", quietly = TRUE)) {
+    stop(
+      "Package 'org.Hs.eg.db' is required for Gene Ontology enrichment analysis. ",
+      "Install it with BiocManager::install('org.Hs.eg.db').",
+      call. = FALSE
+    )
+  }
+
   # Set identities
   Seurat::Idents(xenium.obj) <- xenium.obj@meta.data[[cluster_col]]
 
